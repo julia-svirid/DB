@@ -152,12 +152,12 @@
     
 
     .card_img{
-        width: 170px;
-        height: 111px;
+        width: 180px;
+        height: 117px;
     }
 
     .card {
-        margin: 0px 5px 45px 18px;
+        margin: 0px 5% 45px 1%;
         max-width: 160px;
     }
 
@@ -222,6 +222,7 @@
     }
 
     h1 {
+        padding: 3%;
         font-size: 25px;
     }
 
@@ -232,32 +233,41 @@
 
     .nav_link {
         width: 20%;
-        padding: 5px;
-        font-size: 14px;
-        margin: 10px 3px;
+        padding: 2%;
+    font-size: 14px;
+    margin: 3% 1%;
     }
 
 
     .card {
         width: 94%;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
     }
     
     
     .card_img{
         max-width: 300px;
         max-height: 200px;
+        margin: 0 auto;
     }
     
+
+    .card_link{
+        margin: 0 auto;
+        text-align: center;
+    }
+
     .card_title {
-       
+       margin:  0 auto;
         font-size: 15px;
     }
     
    
     
     .cheese_type {
-        
+        margin: 0 auto;
         font-size: 24px;
         font-weight: 500;
         line-height: 20px;
@@ -265,19 +275,20 @@
     }
     
     .flour {
-        
+        margin: 0 auto;
         font-size: 18px;
         
         line-height: 27px;
     }
     
     .brand {
-        margin: 5px 0px;
+        width: 20%;
+        margin: 10px auto;
     }
     
     .description {
         width: 90%;
-        
+        text-align: center;
         max-height: 50px;
         font-size: 15px;
         line-height: 18px;
