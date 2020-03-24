@@ -107,3 +107,104 @@
     }
     
 }
+
+
+@media only screen and (min-width :  576px) and (max-width : 767px) {
+    .container {
+        width: 100%;
+        max-width: 767px;
+        background-color: #ffffff;
+        margin: 0 auto;
+    }
+
+
+    .content {
+        width: 100%;
+        max-width: 593px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin: 0;
+        color: #1d1813;
+        font-family: "Exo 2";
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .nav_link{
+        padding: 10px 15px 5px;
+        background-color: #f5f3e8;
+        text-decoration-style: dotted;
+        color: #77716a;
+        font-family: "Helvetica Neue";
+        font-size: 15px;
+        font-weight: 300;
+        margin: 10px 5px;
+        line-height: 30px;
+    }
+
+
+    .nav_img {
+        width: 70px;
+        height: 21px;
+    }
+    
+
+    .card_img{
+        width: 170px;
+        height: 111px;
+    }
+
+    .card {
+        margin: 0px 5px 45px 18px;
+        max-width: 160px;
+    }
+
+
+    .card_title {
+        color: #3c2f20;
+        font-family: "Helvetica Neue";
+        font-weight: 300;
+        line-height: 32px;
+        font-size: 14px;
+    }
+    
+    .card_link {
+        color: #3c2f20;
+        text-decoration-style: dotted;
+        font-family: "Exo 2";
+     
+    }
+
+    .cheese_type {
+    
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 10px;
+        
+    }
+    
+    .flour {
+        font-family: "Exo 2";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    
+    .brand {
+        margin: 10px 0px 5px 0px;
+    }
+    
+    .description {
+        max-width: 160px;
+        height: 40px;
+        color: #1d1813;
+        font-family: "Helvetica Neue";
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 14px;
+        
+        
+    }
+}
