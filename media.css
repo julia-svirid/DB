@@ -208,3 +208,80 @@
         
     }
 }
+
+
+
+@media only screen and (min-width :  320px) and (max-width : 575px) {
+    .container {
+        max-width: 575px;
+        
+    }
+
+    .content {
+        max-width: 450px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .nav_img {
+        max-width: 60px;
+        max-height: 18px;
+    }
+
+    .nav_link {
+        width: 20%;
+        padding: 5px;
+        font-size: 14px;
+        margin: 10px 3px;
+    }
+
+
+    .card {
+        width: 94%;
+        margin: 0 auto;
+    }
+    
+    
+    .card_img{
+        max-width: 300px;
+        max-height: 200px;
+    }
+    
+    .card_title {
+       
+        font-size: 15px;
+    }
+    
+   
+    
+    .cheese_type {
+        
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 20px;
+        
+    }
+    
+    .flour {
+        
+        font-size: 18px;
+        
+        line-height: 27px;
+    }
+    
+    .brand {
+        margin: 5px 0px;
+    }
+    
+    .description {
+        width: 90%;
+        
+        max-height: 50px;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 50px;
+        
+    }
+}
