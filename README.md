@@ -1,1 +1,1 @@
-https://julia-svirid.github.io/db/
+https://julia-svirid.github.io/DB/
