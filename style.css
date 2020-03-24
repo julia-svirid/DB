@@ -89,6 +89,11 @@ p {
 }
 
 
+.card_img{
+    width: 300px;
+    height: 200px;
+}
+
 .card_title {
     color: #3c2f20;
     font-family: "Helvetica Neue";
