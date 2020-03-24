@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Light'), local('Helvetica-Neue-Light'),
+        url('./fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
+        url('./fonts/HelveticaNeueCyr-Light.woff') format('woff'),
+        url('./fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+body{
+    margin: 0;
+    background-color: #818181;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+
+.content {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    color: #1d1813;
+    font-family: "Exo 2";
+    font-size: 36px;
+    font-weight: 500;
+}
+
+
+.navigaton {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_link{
+    padding: 8px 20px;
+    background-color: #f5f3e8;
+    text-decoration-style: dotted;
+    color: #77716a;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 5px 17px 5px;
+}
+
+
+.nav_link:hover {
+    background-color: #ffffff;
+    transition: linear 0.2s;
+}
+
+.nav_link.active {
+    background-color: #8fb52c;
+}
+
+
+p {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+.card {
+    margin: 0px 11px 44px 0px;
+}
+
+
+.card_title {
+    color: #3c2f20;
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.card_link {
+    color: #3c2f20;
+    text-decoration-style: dotted;
+    font-family: "Exo 2";
+ 
+}
+
+.card_link:hover {
+    color: #5b84f0;
+    transition: linear 0.2s;
+}
+
+.cheese_type {
+    
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 32px;
+    
+}
+
+.flour {
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.brand {
+    margin: 13px 0px 11px 0px;
+}
+
+.description {
+    width: 261px;
+    height: 50px;
+    color: #1d1813;
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    
+}
